@@ -1,5 +1,18 @@
+import "./Header.css";
+
 function Header() {
-    return <h1>Header</h1>;
+    return(
+    <header className="header">
+
+        <button className="header-btn">
+            ☰
+        </button>
+        <button className="header-btn">
+            🧾
+        </button>
+    </header>
+
+    );
 }
 
 export default Header;
